@@ -1,0 +1,22 @@
+{
+  "name": "gruppuppgift-testning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "install": "^0.13.0",
+    "jest": "^28.1.0",
+    "npm": "^8.10.0"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
