@@ -1,5 +1,6 @@
 const axios = require("axios");
 
+// Small fizzbuzz game to make unit tests on
 const fizzBuzz = (number) => {
   if ((number % 3 === 0) & (number % 5 === 0)) {
     return "FizzBuzz";
@@ -10,6 +11,7 @@ const fizzBuzz = (number) => {
   } else return number;
 };
 
+// Fetching online api
 const fetchData = async () => {
   const data = await axios.get("https://jsonplaceholder.typicode.com/albums/1");
   return data;

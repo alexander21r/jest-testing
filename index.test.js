@@ -1,5 +1,6 @@
 const { fizzBuzz, fetchData } = require("./index");
 
+// Creating test cases
 describe("FizzBuzz", () => {
   test("Should return 7", () => {
     expect(fizzBuzz(7)).toEqual(7);
@@ -15,6 +16,7 @@ describe("FizzBuzz", () => {
   });
 });
 
+// Creating test case for online api
 describe("Testing api", () => {
   test("Testing api", async () => {
     const data = await fetchData();
